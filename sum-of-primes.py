@@ -8,7 +8,7 @@ primeTotal = 5
 startTest = 4
 print("2 is prime")
 
-#attempts to divide test value by all values currently on primelist that are no larger than test didvided by the square root of the previously found prime
+#attempts to divide test value by all values currently on primelist that are no larger than test divided by the square root of the previously found prime
 def isPrime(primelist, test):
     span = len(primelist)
     for i in range(span):
